@@ -9,6 +9,9 @@ body {
 .to-uppercase {
     text-transform: uppercase;
 }
+.clearfix {
+    clear: both;
+}
 /* MAIN HEADER STYLES */
 .main-header__logo {
     display: inline-block;
@@ -41,7 +44,7 @@ body {
 }
 /* MAIN SECTION */
 .main-section {
-    padding: 100px 30px;
+    padding: 90px 30px;
 }
 .main-section > div {
     width: 50%;
@@ -71,6 +74,14 @@ body {
     font-weight: 300;
     margin-bottom: 20px;
 }
+.main-section__social a {
+    color: #8fa1aa;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
 .main-section__action {
     margin-top: 30px;
     border: none;
@@ -81,4 +92,26 @@ body {
     padding: 15px 30px;
     cursor: pointer;
     border-radius: 5px;
+}
+/* STATISTICS SECTION */
+.statistics {
+    padding-top: 100px;
+}
+.statistics__item {
+    display: inline-block;
+    width: 150px;
+    background-color: #f8faff;
+    text-align: center;
+    padding: 5px 10px;
+    margin-right: 20px;
+}
+.statistics__number {
+    font-size: 27px;
+    margin-bottom: 5px;
+    color: #1c44e4;
+}
+.statistics__title {
+    font-size: 16px;
+    color: #797979;
+    font-weight: 300;
 }
